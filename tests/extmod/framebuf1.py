@@ -99,9 +99,9 @@ for mapping in maps.keys():
     print(buf)
     fbuf.text("i", 0, 0, 0, 0)  # clear
     print(buf)
-    print(fbuf.text("i", 0, 0, 1, 1))
+    print(fbuf.text("k", 0, 0, 1, 1))
     print(buf)
-    fbuf.text("i", 0, 0, 0, 1)  # clear
+    fbuf.text("k", 0, 0, 0, 1)  # clear
     print(buf)
     print(fbuf.text("i", 0, 0, 1, 2))
     print(buf)
